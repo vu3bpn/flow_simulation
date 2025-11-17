@@ -11,7 +11,7 @@ import os
 data_dir_base   = os.path.join(os.path.dirname(__file__), 'data')
 AOI_filename  = os.path.join(data_dir_base, 'AOI_1.shp')
 DEM_filename = os.path.join(data_dir_base, 'DEM/combined.vrt')
-
+LULC_filename = os.path.join(data_dir_base, 'lulc_combined.vrt')
 
 if not os.path.exists(data_dir_base):
     os.makedirs(data_dir_base)
